@@ -1,203 +1,230 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-	font-family: "Comic Sans MS",cursive;
+body {
+
+    font-family: "Comic Sans MS", cursive;
 }
-nav{
-	padding: 15px;
-	padding-top: 15px;
-	background: rgba(0, 0, 0, 0.2);
-	font-family: "Comic Sans MS",cursive;
+
+nav {
+    padding: 15px;
+    padding-top: 15px;
+    background: rgba(0, 0, 0, 0.2);
+    font-family: "Comic Sans MS", cursive;
 
 }
-.navbar-toggler{
+
+.navbar-toggler {
     width: 47px;
     height: 34px;
     background-color: white;
-    border:none;
+    border: none;
 }
-.navbar-toggler .line{
+
+.navbar-toggler .line {
     width: 100%;
     float: left;
     height: 2px;
     background-color: black;
     margin-bottom: 5px;
 }
-.navbar-brand img
-{
-	margin-right: 20px;
+
+.navbar-brand img {
+    margin-right: 20px;
 
 }
-.navbar-brand{
-	color:white;
+
+.navbar-brand {
+    color: white;
 }
-.navbar-brand:hover{
-	text-decoration: underline;
-	color: white;
+
+.navbar-brand:hover {
+    text-decoration: underline;
+    color: white;
 }
-.navbar-nav{
-	padding-left:45%; 
+
+.navbar-nav {
+    padding-left: 45%;
 }
-a.nav-link{
-	color:white;
+
+a.nav-link {
+    color: white;
 }
-.nav-item:hover{
-	border-bottom: solid white 3px;
-	color:white;
+
+.nav-item:hover {
+    border-bottom: solid white 3px;
+    color: white;
 }
-#home img{
-	height:1000px;
-	width:1000px;
+
+#home img {
+    height: 1000px;
+    width: 1000px;
 }
-.container.home{
-	margin: 0px;
-	padding: 0px;
+
+.container.home {
+    margin: 0px;
+    padding: 0px;
 }
-.carousel-caption{
-	margin-left: 600px;
+
+.carousel-caption {
+    margin-left: 600px;
     border-radius: 20px;
-    top:150px;
-    bottom:500px;
-	border:solid black;
-	
-	background-color: black;
-   color:white;
-     font-style:italic;
+    top: 150px;
+    bottom: 500px;
+    border: solid black;
+
+    background-color: black;
+    color: white;
+    font-style: italic;
 
 }
 
-.carousel-caption>p{
+.carousel-caption>p {
 
-	font-size:200%;
-	   font-family: "Comic Sans MS",cursive;
+    font-size: 200%;
+    font-family: "Comic Sans MS", cursive;
 
-
-}
-.carousel-caption button{
-	
-	margin-top:20px;
-	font-size:90%;
-	border-radius: 20px;
-	border:solid white;
-	color:black;
-	
-}
-.carousel-caption a{
-		font-family: "Comic Sans MS",cursive;
-		color:black;
-}
-
-.carousel-caption button:hover{
-
-text-decoration: underline;
 
 }
 
-#eventsHeading{
-	font-size: 180%;
-	padding: 20px;
-	text-align: center;
-	color:white;
-	background-color: black;
-	border-radius: 20px solid black;
-	text-align: center;
+.carousel-caption button {
+
+    margin-top: 20px;
+    font-size: 90%;
+    border-radius: 20px;
+    border: solid white;
+    color: black;
+
 }
 
-#Events{
-	background-color: black;
-}
-#Events button{
-	color:black;
-	background-color: white;
-	margin: 5px;
-}
-#Events button:hover{
-	color:white;
-	background-color: black;
-	text-decoration: underline;
-	margin: 5px;
+.carousel-caption a {
+    font-family: "Comic Sans MS", cursive;
+    color: black;
 }
 
-.image img{
-	height: auto;
-	width: auto;
-	width:100%;
-	border-radius: 12px;
-}
-.content{
-	text-align: center;
-	color:black;
-	background-color: white;
-	border-radius:10px;
-	overflow: auto;
-	padding: auto;
+.carousel-caption button:hover {
+
+    text-decoration: underline;
+
 }
 
-.image img:hover{	
-	box-shadow: 2;	  
+#eventsHeading {
+    font-size: 180%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px solid black;
+    text-align: center;
 }
-#About{
-	background-color: black
+
+#Events {
+    background-color: black;
 }
-#About img{
-	padding:auto;
-	height:100%;
-	width:100%;
-	padding-left: 9%;
-	 filter: blur(8px);
-  -webkit-filter: blur(8px);
+
+#Events button {
+    color: black;
+    background-color: white;
+    margin: 5px;
+}
+
+#Events button:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.image img {
+    height: auto;
+    width: auto;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.content {
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+    padding: auto;
+}
+
+.image img:hover {
+    box-shadow: 2;
+}
+
+#About {
+    background-color: black
+}
+
+#About img {
+    padding: auto;
+    height: 100%;
+    width: 100%;
+    padding-left: 9%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 #bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top:180%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-}	
-@media (min-width: 575px) and (max-width: 761px) { 
-
-	.content{
-		margin:5px;
-		height:200px;
-		overflow: auto;
-	}
-	#bg-text{
-		top:125%;
-	}
- }
-@media (min-width: 762px) and (max-width: 991px) { 
-
-	.image img{
-	height:100%;
-	width:100%;
-	border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
 }
-	.content{
-		height:150px;
-		overflow: auto;
-	}
-	#bg-text{
-		top:150%;
-	}
- }
- @media (min-width: 992px) and (max-width: 1200px) { 
 
-	.image img{
-	height:100%;
-	width:100%;
-	border-radius: 12px;
+@media (min-width: 575px) and (max-width: 761px) {
+
+    .content {
+        margin: 5px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    #bg-text {
+        top: 125%;
+    }
 }
-	.content{
-		height:200px;
-		overflow: auto;
-	}
- }
 
+@media (min-width: 762px) and (max-width: 991px) {
 
+    .image img {
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .content {
+        height: 150px;
+        overflow: auto;
+    }
+
+    #bg-text {
+        top: 150%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .image img {
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .content {
+        height: 200px;
+        overflow: auto;
+    }
+}
