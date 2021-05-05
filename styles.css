@@ -140,6 +140,8 @@ text-decoration: underline;
 }
 #About img{
 	padding:auto;
+	height:100%;
+	width:100%;
 	padding-left: 9%;
 	 filter: blur(8px);
   -webkit-filter: blur(8px);
