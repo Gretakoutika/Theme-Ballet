@@ -1,0 +1,43 @@
+nav {
+  padding: 15px;
+  padding-top: 15px;
+  background-color: black;
+  font-family: "Comic Sans MS", cursive;
+}
+body {
+  font-family: "Calibri", cursive;
+  color: azure;
+  font-size: large;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-brand:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive;
+  background-image: url(https://res.cloudinary.com/gretakoutika0910/image/upload/v1620141922/TB/alumbg_y3u8ax.jpg);
+  background-size: cover;
+}
+.btn {
+  background-color: black;
+  color: white;
+  border: 0px;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+#pills-tab {
+  background-color: black;
+}
+.nav-link {
+  color: antiquewhite;
+}
+.nav-link:hover {
+  color: antiquewhite;
+  text-decoration: underline;
+}

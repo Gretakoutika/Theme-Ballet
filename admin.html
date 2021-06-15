@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles3.css">
+
+        <title>Theme Ballet</title>
+    </head>
+    <body>
+        <nav id="#navbar" class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+            <img src="https://res.cloudinary.com/gretakoutika0910/image/upload/v1620141925/TB/TBLBlack_ziz1ca.jpg" alt="" width="70" height="70" class="d-inline-block align-text-center">Theme Ballet</a> 
+            </div>
+        </nav> 
+        <div>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" id="register_new_user-tab" data-toggle="pill" href="#register_new_user" role="tab" aria-controls="register_new_user" aria-selected="true">Register New User</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="delete_user-tab" data-toggle="pill" href="#delete_user" role="tab" aria-controls="delete_user" aria-selected="false"  onClick="callTab('delete_user')">Delete User</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="add_post-tab" data-toggle="pill" href="#add_post" role="tab" aria-controls="add_post" aria-selected="false" onClick="callTab('add_post')">Add Post</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="register_new_user" role="tabpanel" aria-labelledby="register_new_user-tab">
+                <div class="container">
+                  <form>
+                  
+                    <div class="row m-2">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
+
+                    <div class="form-group row m-2">
+                      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group row m-2">
+                      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                      </div>
+                    </div>
+                    <fieldset class="form-group">
+                      <div class="row m-2">
+                        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                        <div class="col-sm-10">
+                          <div class="form-check ">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              1st
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              2nd
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+                            <label class="form-check-label" for="gridRadios3">
+                              3rd
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4" >
+                            <label class="form-check-label" for="gridRadios4">
+                              4th
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                      <div class="row m-2">
+                        <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              CSE
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              ECE
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" >
+                            <label class="form-check-label" for="gridRadios3">
+                              EEE
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4" >
+                            <label class="form-check-label" for="gridRadios4">
+                              MECH
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5" >
+                            <label class="form-check-label" for="gridRadios5">
+                              IT
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios6" value="option6" >
+                            <label class="form-check-label" for="gridRadios6">
+                              Civil
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                    <div class="form-group row m-2">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="delete_user" role="tabpanel" aria-labelledby="delete_user-tab">
+            <div class="container">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Once deleted, you cannot revert it.</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Delete</button>
+            </form>
+            </div>
+            </div>
+            <div class="tab-pane fade" id="add_post" role="tabpanel" aria-labelledby="add_post-tab">
+            <div class="container">
+            <form>
+              <div class="form-group m-2">
+                <label for="exampleFormControlInput1">Post Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Caption</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+             
+                <div class="form-group m-2">
+                  <label for="exampleFormControlFile1">Choose Thumbnail </label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1" multiple>
+                </div>
+                <label for="colFormLabel" class="col-sm-2 col-form-label">Link:</label>
+                <div class="col-sm-10">
+                  <input type="url" class="form-control" id="colFormLabel" placeholder="col-form-label">
+                </div>
+                <div class="form-group row m-2">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Add Post</button>
+                      </div>
+                    </div>
+            </form>
+            </div>
+            </div>
+            </div>
+
+        <div>
+</div>
+        
+    </body>
+    <script>
+      
+      function callTab(id){
+        let el=document.getElementById(id);
+        el.classList.add("show");
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</html>
